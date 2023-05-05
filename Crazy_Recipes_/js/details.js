@@ -182,7 +182,7 @@ const displayRecipeDetails = (recipe) => {
   // Create a section element with class "recipe-comments"
   const commentsSection = document.createElement("section");
   commentsSection.classList.add("recipe-comments");
-  commentsSection.style.marginTop = "-30rem"
+  commentsSection.style.marginTop = "-10rem"
 
 
   // Add a title for the comments section
