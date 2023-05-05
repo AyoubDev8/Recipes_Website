@@ -18,6 +18,7 @@ function displayRecipes(filteredRecipes) {
     // Create a div element for the recipe card
     const recipeElement = document.createElement("div");
     recipeElement.className = "recipe";
+    recipeElement.style.maxHeight = "16rem";
 
     // Add click event listener to the recipe card
     recipeElement.addEventListener("click", (event) => {
